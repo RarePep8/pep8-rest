@@ -12,5 +12,6 @@
     "@google-cloud/firestore": "3.0.0",
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }

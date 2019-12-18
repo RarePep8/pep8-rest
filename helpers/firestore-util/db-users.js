@@ -1,8 +1,6 @@
-const config = require('../../config');
-
 const Firestore = require('@google-cloud/firestore');
-const PROJECTID = config.firestore.projectId;
-const USER_COLLECTION = config.firestore.collections.users;
+const PROJECTID = process.env.PROJECT_ID;
+const USER_COLLECTION = process.env.USER_COLLECTION;
 const firestore = new Firestore({
     projectId: PROJECTID,
     timestampsInSnapshots: true,
